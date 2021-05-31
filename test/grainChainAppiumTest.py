@@ -26,7 +26,9 @@ class Conection(unittest.TestCase):
         self.passW = '123456'
         self.invalidPassW = '1234'
 
-
+    def tearDown(self):
+        self.driver.quit()
+        
     # Check if the password not fill the length, the sign in button is disabled
     def test_one_disabled_button(self):
         self.loginMainPage.enterEmail(self.userName)
