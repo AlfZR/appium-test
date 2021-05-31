@@ -1,14 +1,11 @@
-This is a simple login application that accept any string and any password with length major than 5.
+This is the solution to carlosorojas's challenge found in:
 
-Instructions
----
+https://github.com/carlosorojas/appium-test
 
-1- Automate the login process with valid email and password
+Implementation with Python, Appium, Selenium, Unittest and Page Object Model
 
-2- Check if the password not fill the length, the sign in button is disabled
+To run the tests, simpy execute the following command: 
 
-2- In the next view check that the username in the TextView is the text introduced in the username field
+python grainChainAppiumTest.py
 
-
-**Important: You need to create a fork of this repository to solve the challenge**
 
